@@ -134,6 +134,7 @@ function App() {
         <meta name="keywords" content="donation, support, community, hope, trust, unity, ko-fi, UPI, Google Pay, crowdfunding" />
         <meta name="author" content="JoinUs" />
         <meta name="theme-color" content="#667eea" />
+        <meta name="google-adsense-account" content="ca-pub-9652064011766584" />
         
         <meta property="og:title" content="JoinUs - Support Hope, Trust & Unity" />
         <meta property="og:description" content="Support an individual dedicated to fostering hope, trust, and unity in the world. Your contribution makes a difference." />

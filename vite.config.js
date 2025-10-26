@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/JoinUs/',
+  base: process.env.VERCEL ? '/' : '/JoinUs/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets'

@@ -137,13 +137,13 @@ function App() {
         
         <meta property="og:title" content="JoinUs - Support Hope, Trust & Unity" />
         <meta property="og:description" content="Support an individual dedicated to fostering hope, trust, and unity in the world. Your contribution makes a difference." />
-        <meta property="og:image" content="/assets/images/JoinUs.png" />
+        <meta property="og:image" content={`${import.meta.env.BASE_URL}assets/images/JoinUs.png`} />
         <meta property="og:type" content="website" />
         
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="JoinUs - Support Hope, Trust & Unity" />
         <meta name="twitter:description" content="Support an individual dedicated to fostering hope, trust, and unity in the world." />
-        <meta name="twitter:image" content="/assets/images/JoinUs.png" />
+        <meta name="twitter:image" content={`${import.meta.env.BASE_URL}assets/images/JoinUs.png`} />
       </Helmet>
 
       <a href="#main-content" className="skip-to-content">Skip to main content</a>
@@ -151,7 +151,7 @@ function App() {
       <header className="site-header" role="banner">
         <div className="container">
           <div className="brand">
-            <img src="/assets/images/JoinUs.png" alt="Personal Mission Logo" className="site-logo" />
+            <img src={`${import.meta.env.BASE_URL}assets/images/JoinUs.png`} alt="Personal Mission Logo" className="site-logo" />
             <div>
               <h1 className="site-title">JoinUs</h1>
               <p className="site-tag">💖 Living a life dedicated to Hope, Trust, and Unity</p>
@@ -212,7 +212,7 @@ function App() {
             </div>
             
             <div className="qr-container">
-              <img src="/assets/images/Gpay.jpg" alt="UPI QR Code for payment - nandhakumarkb2005@okaxis" className="qr-code" />
+              <img src={`${import.meta.env.BASE_URL}assets/images/Gpay.jpg`} alt="UPI QR Code for payment - nandhakumarkb2005@okaxis" className="qr-code" />
             </div>
             
             <div className="gpay">
